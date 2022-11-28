@@ -28,6 +28,7 @@ public class UserController {
         return "index";
     }
 
+
     @GetMapping("/goToLoginPage")
     public String loginPage() {
         return "loginPage";
